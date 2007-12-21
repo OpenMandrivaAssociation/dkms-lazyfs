@@ -15,6 +15,7 @@ BuildArchitectures: noarch
 Requires(post): dkms
 Requires(preun): dkms
 Provides: lazyfs = %{LAZYFS_VERSION}
+BuildRoot: %{_tmppath}/%{name}-buildroot
 Prefix: %{_prefix}
 BuildRequires: gnupg
 %description
