@@ -5,7 +5,7 @@
 Summary: Dkms module for the lazyfs module
 Name: dkms-lazyfs
 Version: 0.1.26
-Release: %mkrel 3
+Release: %mkrel 5
 Source0: http://prdownloads.sourceforge.net/zero-install/%{vname}-%{version}.tgz.gpg
 Source1: lazyfs-dkms.conf
 License: GPL
