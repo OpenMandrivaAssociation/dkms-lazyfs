@@ -10,7 +10,7 @@ Source0: http://prdownloads.sourceforge.net/zero-install/%{vname}-%{version}.tgz
 Source1: lazyfs-dkms.conf
 License: GPL
 Group: System/Kernel and hardware
-URL: http://0install.net/
+URL: https://0install.net/
 BuildArchitectures: noarch
 Requires(post): dkms
 Requires(preun): dkms
